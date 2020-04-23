@@ -1,0 +1,15 @@
+name: 'services-enablement-api-lab'
+description: 'Hello World'
+
+branding:
+  icon: 'award'
+  color: 'green'
+
+inputs:
+  repo-token:
+    description: 'The GITHUB_TOKEN secret'
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

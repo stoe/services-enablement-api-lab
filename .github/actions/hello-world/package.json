@@ -1,0 +1,32 @@
+{
+  "name": "services-enablement-api-lab",
+  "version": "0.0.0",
+  "author": {
+    "name": "GitHub Professional Services",
+    "email": "services@github.com",
+    "url": "https://services.github.com"
+  },
+  "contributors": [
+    {
+      "name": "Stefan Stölzle",
+      "email": "stoe@github.com",
+      "url": "https://github.com/stoe"
+    }
+  ],
+  "repository": "githubpartners/services-enablement",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "pack": "ncc build index.js -m",
+    "test": "github-lint"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.2",
+    "@actions/github": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-github": "^3.4.1",
+    "@zeit/ncc": "^0.21.1"
+  }
+}
