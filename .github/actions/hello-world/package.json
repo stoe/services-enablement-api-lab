@@ -21,12 +21,12 @@
     "test": "github-lint"
   },
   "dependencies": {
-    "@actions/core": "^1.2.2",
+    "@actions/core": "^1.2.3",
     "@actions/github": "^2.1.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-plugin-github": "^3.4.1",
-    "@zeit/ncc": "^0.21.1"
+    "@zeit/ncc": "^0.22.1"
   }
 }
