@@ -1,7 +1,8 @@
 name: greeting
 
 on:
-  issues: [ opened ]
+  issues:
+    - opened  
 
 jobs:
   greet:
