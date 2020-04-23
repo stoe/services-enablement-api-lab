@@ -1,0 +1,11 @@
+name: greeting
+
+on:
+  issues: [ opened ]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "Hello from the shell"
