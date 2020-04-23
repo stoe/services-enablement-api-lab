@@ -17,7 +17,7 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "pack": "ncc build index.js -m",
+    "pack": "ncc build index.js",
     "test": "github-lint"
   },
   "dependencies": {
