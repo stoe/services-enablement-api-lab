@@ -8,7 +8,7 @@ async function run() {
 
     const {context} = github
 
-    const issueComment = context.issue({body: 'Hello from GitHub Actions!'})
+    const issueComment = context.payload.issue({body: 'Hello from GitHub Actions!'})
     return client.issues.createComment(issueComment)
   } catch (err) {
     core.setFailed(err.message)
